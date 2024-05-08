@@ -1,0 +1,26 @@
+mkdir Part A
+cd Part A
+git --version
+git init
+git add
+git status
+git remote add origin "Link of the GitHub"
+git commit -m "Comment"
+git push -u origin master
+
+for verification
+
+git config --global user.email "email.id"
+git config --global user.name "user_name"
+
+
+
+Git is a distributed version control system (VCS) that is widely used for tracking changes 
+in source code during software development. It allows multiple developers to collaborate 
+on projects simultaneously. Git tracks changes to files, which allows developers to revert 
+to previous versions, compare changes over time, and merge changes made by different people.
+
+GitHub, on the other hand, is a web-based platform built around Git. It provides a 
+centralized location for hosting Git repositories, along with additional features 
+such as issue tracking, project management, and code review tools. GitHub allows 
+developers to collaborate on projects, share code with others, and contribute to open-source projects.
